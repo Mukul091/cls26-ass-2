@@ -1,0 +1,162 @@
+.about-info{}
+.about-text {
+    padding: 20px;
+}
+.about-text h6 {
+    color: #6976b5;
+}
+.about-text h4 {
+    width: 242px;
+    font-size: 30px;
+
+    position: relative;
+}
+.about-text h4::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 2px;
+    background-color: #6976b5;
+    top: 116px;
+    left: 0;
+}
+.about-text p {
+    margin-top: 22px;
+}
+
+
+
+
+.about-text.parent-t {
+    margin-left: 427px;
+}
+.about-text.parent-t h6 {
+    margin-left: 48px;
+}
+.about-text.parent-t h4 {
+    width: 301px;
+    margin-left: -40px;
+}
+.about-text.parent-t h4::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 2px;
+    background-color: #6976b5;
+    top: 55px;
+    left: 106px;
+}
+.about-text.parent-t p {
+    width: 469px;
+    text-align: center;
+    margin-left: -128px;
+    margin-top: 35px;
+}
+
+
+
+
+
+.service-section {
+    height: 721px;
+ 
+}
+.services-item{
+position: relative;
+}
+
+.service-img {
+    position: relative;
+}
+.service-img img {
+    width: 300px;
+}
+.service-info {
+    position: absolute;
+    padding: 4px 39px;
+    background: #3663eb;
+    border-radius: 31px;
+    top: 147px;
+    left: 74px;
+}
+.service-info h3 {
+    font-size: 20px;
+    display: block;
+    margin-left: 10px;
+    color: #fff;
+}
+.service-info img {
+    width: 28px;
+    margin-left: -23px;
+    border-radius: 50%;
+}
+.service-text{}
+.service-text h4 {
+    margin-top: 30px;
+    font-size: 22px;
+}
+.service-text p {
+    width: 300px;
+    margin-top: 15px;
+}
+
+
+
+.f-logo img {
+    width: 91px;
+    margin-bottom: 35px;
+}
+
+.f-pages{}
+.f-pages h4 {
+    margin-left: 32px;
+    border-left: 2px solid blue;
+    padding-left: 18px;
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+.f-pages ul{
+    list-style: none;
+}
+.f-pages ul li {
+    margin-top: 10px;
+    color: #ddd;
+}
+.f-icon {
+    margin-left: -18px;
+    margin-top: 41px;
+    position: relative;
+}
+span{
+    margin-left: 23px;
+    
+}
+.f-icon::after {
+    position: absolute;
+    content: "";
+    width: 359%;
+    height: 1px;
+    background-color: #ddd;
+    top: 78px;
+    left: 20px;
+}
+.footer-section {
+    height: 396px;
+}
+
+
+.footer{
+    position: relative;
+}
+.footer p {
+    position: absolute;
+    top: 72px;
+    left: 404px;
+    font-weight: bold;
+}
+
+.about-img{}
+.about-img img {
+    width: 565px;
+}
+/* img gula pai ni tai pic tule dilam */
